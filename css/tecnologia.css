@@ -1,0 +1,141 @@
+@import url(index_styles.css);
+@import url(menu.css);
+@import url(fontello.css);
+
+
+/** slider **/
+img{
+	width: 600px;
+	height: 450px;
+}
+
+.s{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.s ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite;
+}
+
+.s li{
+	width: 100%;
+	list-style: none;
+
+}
+
+.s img{
+	width: 100%;
+}
+
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+
+}
+
+/** secciones **/
+
+#historia{
+margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.conte{
+	margin-top: 20px;
+}
+
+.conte img{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.conte p{
+	text-align: justify;
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 20px;
+}
+/** tarjeta 3d **/
+
+.con{
+	display: flex;
+	margin-top: 20px;
+}
+
+.c{
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	-webkit-perspective:700;
+	box-shadow: 0px 0px 5px black;
+}
+
+.carta{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 2s
+
+}
+
+.carta:hover{
+	transform: rotateY(540deg);
+}
+
+.lado{
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	position: absolute;
+}
+
+.frente{
+	background-color: blue;
+}
+
+.atras{
+	background-color: #f0f0f0;
+	transform: rotateY(180deg);
+}
+
+.c img {
+	width: 100%;
+	height: 100%;
+}
+
+.c h3{
+	color: lightblue;
+}
+
+@media (min-width:480px){
+	.atras p{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+

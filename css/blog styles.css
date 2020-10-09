@@ -1,0 +1,164 @@
+@import url(index_styles.css);
+@import url(menu.css);
+@import url(fontello.css);
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h3{
+	color: yellow;
+}
+
+@media (min-width:480px){
+	div#general{
+	margin: auto;
+	margin-top: 60px;
+	width: 480px;
+	height: 700px;
+	background-color: red;
+
+}
+
+div#ofertas{
+	float: right;
+	width: 150px;
+	height: 650px;
+	background-color: green;
+}
+
+div#ofertas img{
+	width: 150px;
+	height: 200px;
+}
+
+
+div#novedades{
+	width: 320px;
+	height: 200px;
+	background-color: blue;
+}
+
+div#novedades img{
+	width: 320px;
+	height: 200px;
+}
+
+div#body{
+	margin-top: 20px;
+	width: 320px;
+	height: 460px;
+	background-color: purple;
+}
+
+div#body img{
+	width: 320px;
+	height: 180px;
+}
+
+}
+
+@media (min-width: 768px){
+	div#general{
+	margin: auto;
+	margin-top: 60px;
+	width: 760px;
+	height: 800px;
+	background-color: red;
+
+}
+
+
+div#ofertas{
+	float: right;
+	width: 200px;
+	height: 500px;
+	background-color: green;
+}
+
+div#ofertas img{
+	width: 200px;
+	height: 190px;
+}
+
+
+div#novedades{
+	width: 540px;
+	height: 200px;
+	background-color: blue;
+}
+
+div#novedades img{
+	width: 540px;
+	height: 200px;
+}
+
+div#body{
+	margin-top: 20px;
+	width: 540px;
+	height: 580px;
+	background-color: purple;
+}
+
+div#body img{
+	width: 540px;
+	height: 380px;
+}
+
+}
+
+@media (min-width: 1024px){
+	div#general{
+	margin: auto;
+	margin-top: 60px;
+	width: 960px;
+	height: 800px;
+	background-color: red;
+
+}
+
+
+div#ofertas{
+	float: right;
+	width: 300px;
+	height: 500px;
+	background-color: green;
+}
+
+div#ofertas img{
+	width: 300px;
+	height: 300px;
+}
+
+
+div#novedades{
+	width: 640px;
+	height: 200px;
+	background-color: blue;
+}
+
+div#novedades img{
+	width: 640px;
+	height: 200px;
+}
+
+div#body{
+	margin-top: 20px;
+	width: 640px;
+	height: 580px;
+	background-color: purple;
+}
+
+div#body img{
+	width: 640px;
+	height: 380px;
+}
+
+}
+
+
+	
+
+
+
