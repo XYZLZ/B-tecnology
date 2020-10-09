@@ -103,7 +103,7 @@ margin: 0;
 }
 
 .carta:hover{
-	transform: rotateY(540deg);
+	transform: rotateY(180deg);
 }
 
 .lado{
