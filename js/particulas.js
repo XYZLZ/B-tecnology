@@ -50,7 +50,7 @@ particlesJS('particles-js',
           "sync": false
         }
       },
-      "size": {
+      "size":  {
         "value": 10,
         "random": true,
         "anim": {
