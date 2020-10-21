@@ -13,6 +13,8 @@ img{
 	width: 95%;
 	margin: auto;
 	overflow: hidden;
+	position: relative;
+	z-index: 99;
 	
 }
 
@@ -57,6 +59,8 @@ margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
+	position: relative;
+	z-index: 99;
 }
 
 .conte{
@@ -83,6 +87,8 @@ margin: 0;
 .con{
 	display: flex;
 	margin-top: 20px;
+	position: relative;
+	z-index: 99;
 }
 
 .c{
