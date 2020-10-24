@@ -19,8 +19,8 @@ body{
 
 .contenido{
 	margin: auto;
-	width: 40%;
-	height: 40%;
+	width: 55%;
+	height: 55%;
 	background: #fff;
 	border-radius: 10px;
 	text-align: center;
@@ -59,6 +59,28 @@ h2{
 
 #cerrar:checked + label, #cerrar:checked ~ .modal{
 	display: none;
+}
+
+@media (min-width:768px){
+	.contenido{
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+}
+
+@media (min-width:1024px){
+	.contenido{
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
 }
 
 
