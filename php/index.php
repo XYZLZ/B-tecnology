@@ -8,6 +8,7 @@
 	<link rel="icon" type="image/jpg" href="img/logo.jpg">
 </head>
 <body>
+
 	<header>
 	<div class="contenedor">
 		<h1 class="icon-laptop">Tecnologia</h1>
@@ -29,8 +30,14 @@
 	<input type="text" name="email" placeholder="email" required>
 	<input type="text" name="asunto" placeholder="asunto" required>
 	<textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
-	<input type="submit" name="enviar" value="Enviar" id="boton">
+	<input type="submit" value="Enviar" id="boton" name="enviar">
 	</form>
+
+	<?php
+
+	include("php/php.php");
+
+	?>
 
 	<footer>
 	<div class="contenedor">
@@ -43,5 +50,6 @@
 		</div>
 	</div>
 </footer>
+
 </body>
 </html>

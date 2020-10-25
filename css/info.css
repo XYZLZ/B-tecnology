@@ -11,6 +11,24 @@
 	justify-content: center;
 }
 
+.animate__animated.animate__fadeInLeft{
+	--animate-delay:2s;
+	--animate-duration:8s;
+}
+
+.info-tec .animate__animated.animate__bounce{
+	--animate-duration:6s;
+	--animate-delay:2s;
+	 
+}
+
+.info-tec .animate__animated.animate__flip{
+	--animate-duration:7s;
+	--animate-delay:2s;
+
+	
+}
+
 
 .info-tec{
 	margin: 20px;
@@ -33,4 +51,21 @@
 	.info-tec{
 		width: auto;
 	}
+	.animate__animated.animate__fadeInLeft{
+	--animate-delay:2s;
+	--animate-duration:8s;
+}
+
+.info-tec .animate__animated.animate__bounce{
+	--animate-duration:6s;
+	--animate-delay:2s;
+	 
+}
+
+.info-tec .animate__animated.animate__flip{
+	--animate-duration:7s;
+	--animate-delay:2s;
+
+	
+}
 }

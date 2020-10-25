@@ -8,11 +8,28 @@
 	flex-wrap: wrap;
 }
 
-#blg article{
+#blog article{
 	margin: 15px;
+	box-sizing: border-box;
 }
 
 #blog img{
 	width: 100%;
 	max-width: 280px;
+
+}
+
+.animate__animated.animate__backInRight{
+	--animate-duration:5s;
+	--animate-delay:2s;
+}
+
+.blog.animate__animated.animate__bounce{
+	--animate-duration:5s;
+	--animate-delay:2s;
+}
+
+.animate__animated.animate__backInLeft{
+	--animate-duration:5s;
+	--animate-delay:2s;
 }

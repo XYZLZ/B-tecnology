@@ -1,0 +1,22 @@
+.animado{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+
+
+
+.mostrarIzquierda{
+	animation: mostrarIzquierda 1s;
+}
+
+
+@keyframes mostrarIzquierda{
+	0%{
+		transform: translateX(-60px);
+	}
+
+	100%{
+		transform: translateX(0);
+	}
+}
